@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    double d;
+    int a,b,c,x;
+    cin>>d;
+    a=d;
+    cout<<"NOTAS:"<<endl;
+    b=a%100;
+    a=a/100;
+    cout<<a<<" nota(s) de R$ 100.00"<<endl;
+    a=b/50;
+    b=b%50;
+    cout<<a<<" nota(s) de R$ 50.00"<<endl;
+    a=b/20;
+    b=b%20;
+    cout<<a<<" nota(s) de R$ 20.00"<<endl;
+    a=b/10;
+    b=b%10;
+    cout<<a<<" nota(s) de R$ 10.00"<<endl;
+    a=b/5;
+    b=b%5;
+    cout<<a<<" nota(s) de R$ 5.00"<<endl;
+    a=b/2;
+    b=b%2;
+    cout<<a<<" nota(s) de R$ 2.00"<<endl;
+    cout<<"MOEDAS:"<<endl;
+    x=d;
+    d=d-x;
+    d*=100;
+    b*=100;
+    b+=d;
+    a=b/100;
+    b=b%100;
+    cout<<a<<" moeda(s) de R$ 1.00"<<endl;
+    a=b/50;
+    b=b%50;
+    cout<<a<<" moeda(s) de R$ 0.50"<<endl;
+    a=b/25;
+    b=b%25;
+    cout<<a<<" moeda(s) de R$ 0.25"<<endl;
+    a=b/10;
+    b=b%10;
+    cout<<a<<" moeda(s) de R$ 0.10"<<endl;
+    a=b/5;
+    b=b%5;
+    cout<<a<<" moeda(s) de R$ 0.05"<<endl;
+    a=b/1;
+    cout<<a<<" moeda(s) de R$ 0.01"<<endl;
+    return 0;
+}
