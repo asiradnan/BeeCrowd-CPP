@@ -1,2 +1,2 @@
 # BeeCrowd CPP
-BeeCrowd problems solutions
+BeeCrowd problems solutions by CPP(C++)
