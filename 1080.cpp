@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int a,h=0,p;
-    for (int i=1;i<=10;i++){
+    for (int i=1;i<=100;i++){
         cin>>a;
         if (a>h){
             p=i;
