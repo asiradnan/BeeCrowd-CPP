@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int c;
-    double a,s;
+    double a,s=0;
     while (c<2){
         cin>>a;
         if (a>=0&&a<=10){
