@@ -11,6 +11,9 @@ int main()
             c++;
             s+=a;
         }
+        else{
+            cout<<"nota invalida"<<endl;
+        }
     }
     cout<<fixed<<setprecision(2)<<"media = "<<s/2<<endl;
 }
