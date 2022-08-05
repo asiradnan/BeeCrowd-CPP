@@ -5,7 +5,7 @@ int main()
     int a;
     cin>>a;
     for (int i=0;i<10;i++){
-        cout<<"X["<<i<<"] = "<<a<<endl;
+        cout<<"N["<<i<<"] = "<<a<<endl;
         a*=2;
     }
 }
