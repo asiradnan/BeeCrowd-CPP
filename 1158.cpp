@@ -4,11 +4,11 @@ int main()
 {
     int a,b,c;
     cin>>a;
-    for (int i=1;i<=a;i++){
+    for (int i=0;i<a;i++){
         cin>>b>>c;
         int d=0,s=0;
         while (d<c){
-            if (b%2==1){
+            if (b%2!=0){
                 s+=b;
                 d++;
             }
