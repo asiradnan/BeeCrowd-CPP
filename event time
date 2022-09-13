@@ -1,0 +1,10 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    string s;
+    int x,y,a,b,c,p,q,r;
+    cin>>s>>x>>a>>s>>b>>s>>c>>s>>y>>p>>s>>q>>s>>r;
+    
+}
